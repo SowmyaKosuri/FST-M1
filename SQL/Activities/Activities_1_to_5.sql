@@ -26,9 +26,7 @@ SELECT salesman_id, salesman_city FROM salesman where salesman_city = 'Paris';
 --ACTIVITY 4-------
 
 ALTER TABLE salesman ADD grade int;
-
 UPDATE salesman SET grade=100;
-
 SELECT * FROM salesman;
 
 --ACTIVITY 5-------
